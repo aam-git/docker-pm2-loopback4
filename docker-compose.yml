@@ -5,3 +5,5 @@ services:
     restart: unless-stopped
     volumes:
       - loopback:/usr/src/app
+    ports:
+      - 3000
