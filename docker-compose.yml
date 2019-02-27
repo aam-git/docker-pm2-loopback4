@@ -1,0 +1,7 @@
+version: '2'
+services:
+  loopback:
+    image: aamservices/pm2-loopback4
+    restart: unless-stopped
+    volumes:
+      - loopback:/usr/src/app
