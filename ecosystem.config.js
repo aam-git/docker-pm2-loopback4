@@ -5,7 +5,7 @@ module.exports = {
             args: 'start',
             exec_model: 'fork',
             autorestart: true,
-            watch: true,
+            watch: false,
             max_memory_restart: '4G'
             }]
        };
